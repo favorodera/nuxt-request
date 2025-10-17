@@ -12,7 +12,15 @@ Reactive wrapper around `$fetch` with lifecycle hooks and status tracking.
 ### Install
 
 ```bash
-npm i @favorodera/nuxt-request
+npm install @favorodera/nuxt-request
+```
+
+Add the following to your `nuxt.config.ts` file:
+
+```ts
+export default defineNuxtConfig({
+    extends: ['@favorodera/nuxt-request'],
+})
 ```
 
 ### Usage
